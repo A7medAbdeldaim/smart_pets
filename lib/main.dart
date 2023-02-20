@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:firebase_database/firebase_database.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -57,8 +56,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   double level = 0;
-  late FirebaseMessaging messaging;
-
 
   @override
   void initState() {
@@ -68,14 +65,9 @@ class _MyHomePageState extends State<MyHomePage> {
         level = jsonDecode(jsonEncode(event.snapshot.value))['float'];
         print(level);
       });
-
     });
 
     super.initState();
-    // messaging = FirebaseMessaging.instance;
-    // messaging.getToken().then((value){
-    //   print(value);
-    // });
   }
 
   @override
