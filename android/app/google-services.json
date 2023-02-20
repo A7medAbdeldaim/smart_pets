@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "854165861301",
+    "firebase_url": "https://smart-pets-27498-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "smart-pets-27498",
+    "storage_bucket": "smart-pets-27498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854165861301:android:014c2d948ba88d61bd5ffc",
+        "android_client_info": {
+          "package_name": "com.example.smart_pets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854165861301-ee2voo6s2f6g7eq936j2floulg9f8sdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCg_9ObCn93Am85Oyw9esh8usEoNbp9To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854165861301-ee2voo6s2f6g7eq936j2floulg9f8sdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
